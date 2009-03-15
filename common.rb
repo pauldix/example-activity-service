@@ -3,7 +3,7 @@ require 'dm-core'
 require 'dm-aggregates'
 require 'dm-serializer'
 
-require 'models/activity'
+require 'lib/activity'
 
 environment = (ENV["e"] || "development")
 DataMapper.setup(:default, YAML::load(File.open('database.yml'))[environment])
