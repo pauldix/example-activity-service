@@ -1,0 +1,18 @@
+h2. Description
+
+This is a small example of a lightweight web service in "Sinatra":http://www.sinatrarb.com/. The service is intended to store the activity feed for a social site of some sort.
+
+h2. Installation
+
+Download the source. Run the following steps:
+<pre>
+rake install:gems
+rake db:migrate
+
+# run the server
+ruby app.rb
+</pre>
+
+h2. Usage
+
+Check spec/app_spec.rb for usage.
